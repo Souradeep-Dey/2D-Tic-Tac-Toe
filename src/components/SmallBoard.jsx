@@ -56,7 +56,7 @@ export default function SmallBoard({ scaleFactor, boardNo, setBoardNo, id, whose
                 e.target.parentElement.style.translate = "-10% 0"
                 e.target.parentElement.style.backgroundImage = `url(${whoseTurn})`
                 e.target.parentElement.style.border = ""
-                gameStatus.current[e.target.id] = whoseTurn == x ? 1 : -1
+                //gameStatus.current[e.target.id] = whoseTurn == x ? 1 : -1
             }
             setWhoseTurn(whoseTurn == x ? o : x)
 
